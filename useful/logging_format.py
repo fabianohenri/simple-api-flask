@@ -15,7 +15,7 @@ class LoggingFormat:
         elif "Info" in color:
             # Cor branca
             logging.info("\033[97m" + message + "\033[0;0m")
-        elif "Sucess" in color:
+        elif "Success" in color:
             # Cor verde
             logging.info("\033[1;32m" + message + "\033[0;0m")
         elif "Alert" in color:
