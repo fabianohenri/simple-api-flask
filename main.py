@@ -1,7 +1,7 @@
 from waitress import serve
 
 from resources.routes import initialize_routes
-from utils.config import *
+from userful.config import *
 
 # Iniciar rotas
 initialize_routes(api)

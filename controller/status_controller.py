@@ -1,4 +1,4 @@
-from utils.logging_format import LoggingFormat
+from userful.logging_format import LoggingFormat
 from flask import jsonify
 
 class StatusController:

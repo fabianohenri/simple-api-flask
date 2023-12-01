@@ -4,7 +4,7 @@ import os
 from flask import Flask
 from flask_restful import Api
 
-from utils.logging_format import LoggingFormat
+from userful.logging_format import LoggingFormat
 from flask_cors import CORS
 
 app = Flask(__name__)
